@@ -1,3 +1,6 @@
+
+const mongoose = require('mongoose');
+
 const dbURI = "mongodb://root:rootpassword@localhost:27022/node-auth?authSource=admin";
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true})
